@@ -1,0 +1,264 @@
+li{list-style-type: none;}
+.about {
+  margin: 0 auto;
+  z-index: -1;
+  background:url('../assets/background.jpg')no-repeat center top;
+  height: 914px;
+}
+
+.about>div {
+  position: relative;
+  width: 1440px;
+  height: 760px;
+  margin: 0 auto;
+}
+
+.about >div .introduce {
+  background: rgba(18, 18, 18, 0.70);
+  width: 970px;
+  height: 231px;
+  position: absolute;
+  left:360px;
+  top:446px;
+
+}
+.about #myphoto{
+  position: absolute;
+  width:210px;
+  top:294px;
+  left: 1061px;
+  z-index: 1;
+}
+.about #bar li{
+  font-size: 18px;
+  list-style-type: none;
+  float:left;
+  padding:0 37px 19px 37px ;
+}
+
+.on_intro{
+  color:#FF5252;
+  border-bottom: 2px solid #FF5252;
+  transition: 0.2s;
+}
+.about #bar{
+  /* content: ""; display:block; clear:both; */
+  margin:0 auto;
+  position:absolute;
+  left:360px;
+  top:390px;
+  z-index: 1;
+  margin-left: -40px;
+  /* border:1px solid #FFF; */
+}
+
+
+.about>div .intro_content h2 {
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 38px 0 0px 35px;
+  margin: 0 ;
+}
+
+.about>div .intro_content p{
+  font-size: 14px;
+  padding: 0 0 0 35px;
+  line-height: 22px;
+
+}
+
+.intro_content span{
+  font-family: AppleSDGothicNeo-Medium;
+  border-bottom: 1px solid #FF5252;
+  box-shadow: inset 0 -5px 1 #FF5252;
+  color:#FFFFFF;
+  top: .68em;
+  padding: 0 0.2rem;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.about>div .icon li {
+  list-style-type: none;
+  font-size: 0;
+  text-align: center;
+}
+.about>div .icon li:not(:first-child){
+  padding:5px 0 0 0;
+}
+.about>div .icon  {
+  position: absolute;
+  left:169px;
+  top:383px;
+}
+.about>div .line{
+  border-right : 1px solid #fff;
+  height: 186px;
+  position: absolute;
+  left:218px;
+  top:491px;
+}
+
+.about .about_content{
+  display: none;
+}
+
+
+
+.about .about_content .info{
+  position:absolute;
+  bottom: 0;
+  width:133px;
+}
+
+.about .about_content .info li{
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.about .about_content .info_content{
+  position: absolute;
+  width:400px;
+  left:133px;
+  bottom:0;
+  line-height: 27px;
+
+}
+
+.about .about_content .info_content li{
+  font-size: 15px;
+}
+.about .experience .year a li{
+  font-family: AppleSDGothicNeo-Medium;
+  font-size: 16px;
+  color: #FFFFFF;
+  float:left;
+  padding: 0 73px 0 0;
+}
+.about .experience .year a li:hover{
+    color:#FF5252;
+}
+.experience{
+  height:135px;
+}
+
+.experience .group2{
+  display: none;
+}
+.experience .group1{
+  display: none;
+}
+
+.experience .ex_info{
+  position:absolute;
+  bottom: 0;
+  width:133px;
+  line-height: 27px;
+  /* border:1px solid green; */
+  left:150px;
+}
+
+
+.experience .year{
+  display: none;
+}
+
+.experience .ex_title{
+  position: absolute;
+  color:white;
+  width: 150px;
+  height:187px;
+  bottom:0;
+}
+.experience .ex_title li{
+  font-weight: 400;
+  padding:0 0 56px 0;
+
+}
+
+.experience .ex_info li{
+  font-weight: 400;
+}
+.experience .ex_content{
+  position: absolute;
+  width:250px;
+  left:285px;
+  bottom:0;
+  line-height:27px;
+
+}
+.experience .ex_title2{
+  position: absolute;
+  color:white;
+  width: 150px;
+  height:187px;
+  bottom:0;
+}
+.experience .ex_title2 li{
+  font-weight: 400;
+  padding:79px 0 0 0;
+}
+.experience .ex_content li, .ex_info li{
+  font-size: 14px;
+}
+.experience .group3{
+  display: none;
+}
+.experience .group3 .ex_title3{
+  position: absolute;
+  left:41px;
+  top:90px;
+  font-family: AppleSDGothicNeo-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.experience .group3 .ex_info3{
+  position: absolute;
+  left:197px;
+  top:90px;
+  font-size: 13px;
+  color: #FFFFFF;
+  line-height:20px;
+  font-family: AppleSDGothicNeo-bold;
+}
+
+.experience .group3 .ex_content3{
+  font-family: AppleSDGothicNeo-UltraLight;
+  font-size: 13px;
+  color: #FFFFFF;
+  position: absolute;
+  left:306px;
+  top:90px;
+  line-height:20px;
+}
+.experience .group4 {
+  display: none;
+}
+
+.experience .group4 .ex_title4{
+  position: absolute;
+  left:41px;
+  top:90px;
+  font-family: AppleSDGothicNeo-Regular;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.experience .group4 .ex_info4{
+  position: absolute;
+  left:197px;
+  top:90px;
+  font-size: 13px;
+  color: #FFFFFF;
+  line-height:20px;
+  font-family: AppleSDGothicNeo-bold;
+}
+
+.experience .group4 .ex_content4{
+  font-family: AppleSDGothicNeo-UltraLight;
+  font-size: 13px;
+  color: #FFFFFF;
+  position: absolute;
+  left:335px;
+  top:90px;
+  line-height:20px;
+}

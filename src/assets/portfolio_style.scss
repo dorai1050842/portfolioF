@@ -1,0 +1,171 @@
+li,
+ol,
+ul {
+  list-style: none;
+}
+
+.portfolio {
+  position: absolute;
+  margin: 0 auto;
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+}
+
+.portfolio > div {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.portfolio .port_menu  {
+  display: block;
+  margin-block-start: 100px;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 52px;
+}
+
+.portfolio .port_menu li {
+  float: left;
+}
+
+.portfolio .port_menu li a {
+  display: block;
+  padding: 0 33px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.8);
+  transition: all 0.5s;
+}
+
+.portfolio .port_menu li.on a {
+  border-color: #FF5252;
+  color: #FF5252;
+}
+
+.portfolio #img_contents {
+  width: 1200px;
+}
+
+.portfolio .port_img {
+  height: 450px;
+}
+
+.portfolio .port_img li {
+  float: left;
+  padding: 10px;
+}
+
+.port_img li.on {
+  display: block;
+  animation: in 1 0.8s forwards;
+}
+
+.port_img li {
+  display: none;
+}
+
+.port_img li a {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 255px;
+  height: 255px;
+  transition: all 0.5s;
+}
+
+.port_img li:hover a {
+  filter: grayscale(100%);
+}
+
+.port_img li a:before {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 96%;
+  height: 101%;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.port_img li:hover a:before {
+  width: 93%;
+  height: 93%;
+  opacity: 2;
+  background: rgba(0,0,0,.8);
+}
+
+.portfolio .port_img li img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  transition: all 0.5s;
+}
+
+.portfolio .port_img li:hover img {
+  filter: blur(1px)
+}
+
+.portfolio .port_img li span {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50%;
+  color: #fff;
+  font-size: 20px;
+  white-space: nowrap;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.portfolio .port_img li:hover span {
+  top: 70px;
+  opacity: 1;
+}
+
+.portfolio .port_img li i {
+  position: absolute;
+  z-index: 10;
+  bottom: 40px;
+  left: 50%;
+  font-size: 30px;
+  color: #e74d71;
+  transform: translate(-50%,0);
+  opacity: 0;
+  transition: all 0.3s;
+  box-sizing: border-box;
+}
+
+.portfolio .port_img li:hover i {
+  bottom: 50px;
+  opacity: 1;
+}
+
+.portfolio .port_img li:hover em {
+  opacity: 1;
+}
+@keyframes in {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
