@@ -155,6 +155,26 @@ ul {
 .portfolio .port_img li:hover em {
   opacity: 1;
 }
+
+@media screen and (max-width:1000px) {
+
+  .portfolio {
+    background-color: #333;
+    width: 100%;
+    height: 3620px;
+  }
+
+  .portfolio .port_img li {
+    height: 550px;
+    width: 600px;
+    display: block;
+  }
+  .port_img li a {
+    width: 550px;
+    height: 550px;
+  }
+}
+
 @keyframes in {
   0% {
     display: none;

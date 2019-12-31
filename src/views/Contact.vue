@@ -5,7 +5,7 @@
     <h2>Contact</h2>
     <ul class="list clear">
       <li class="bg1">
-          <div>010-8242-8098</div>
+          <div>seocheeun&nbsp;@gmail.com</div>
       </li>
       <li class="bg2">
         <a :href="InstagramUrl"><div>Instagram</div></a>
